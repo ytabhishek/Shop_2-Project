@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font: normal;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+}
+header{
+    background-color: rgb(151, 178, 232);
+    height: 75px;
+    
+}
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 533px;
+  margin-right: 420px;
+  padding-top: 30px;
+  font-size: 20px;
+} 
+.navbar li:hover{
+    color: rgb(212, 136, 136);
+    cursor: pointer;
+}
+.navbar li{
+    transform: scale(0.9);
+    transition: all .42s ;
+}
+.logo img{
+    max-width: 100px;
+  margin-top: -60px;
+  margin-left: 100px
+}
+.sign{
+    margin-left: 1300px;
+    margin-top: -39px;
+    font-size: 20px;
+    color: black;
+}
+.sign i:hover{
+    color: rgb(212,136,136);
+    cursor: pointer;
+}
+.sign i{
+    transform: scale(0.9);
+    transition: all .42s;
+}
+
+ .background{
+    background-image: url(watch15.jpg);
+}
+.background{
+    display: grid;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1 , 1fr);
+    margin-left: 600px;
+}
+.background h2{
+    font-size: 50px;
+    margin-left: -364px;
+  margin-top: 205px;
+} 
+
+.background P{
+    font-size: 50px;
+    margin-left: -253px;
+  margin-top: -432px;
+}
+.background span{
+    color: red;
+}
+.background span{
+    color: red;
+    font-family: cursive;
+}
+.brand img{
+    margin-top: 200px;
+    margin-bottom: 112px;
+    margin-left: 194px;
+    width: 200px;
+}
+/* ---------Watch------------ */
+.aboutwatch{
+    background-color: rgb(201, 172, 231);
+}
+.aboutwatch h2{
+    text-align: center;
+  margin-top: 300px;
+  margin-bottom: -118px;
+  padding-top: 57px;
+  font-size: 45px;
+  cursor: pointer;
+ 
+
+}
+.aboutwatch p{
+    text-align: center;
+  margin-top: 124px;
+color: rgb(155, 69, 235);
+  margin-bottom: -135px;
+  font-size: 27px;
+  margin-left: 102px;
+  padding-bottom: 35px;
+}
+.heading h2{
+    margin-left: 410px;
+  margin-top: 200px;
+  font-size: 35px;
+  margin-bottom: -191px;
+}
+.heading span{
+    color: red;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(260px ,auto));
+    gap: 1rem;
+    margin-left: 415px;
+    margin-top: 220px;
+    margin-right: 110px;
+
+    
+}
+.watch1 img{
+    width: 75%;
+    height: auto;
+}
+.watch1 img:hover{
+    transform: scale(0.9);
+    
+}
+.watch1 img{
+    cursor: pointer;
+    transition: all .42s ;
+}
+.watch2 img{
+    width: 75%;
+    height: auto;
+}
+.watch2 img:hover{
+    transform: scale(0.9);
+    
+}
+.watch2 img{
+    cursor: pointer;
+    transition: all .42s ;
+}
+.watch3 img{
+    width: 75%;
+    height: auto;
+}
+.watch3 img:hover{
+    transform: scale(0.9);
+    
+}
+.watch3 img{
+    cursor: pointer;
+    transition: all .42s ;
+}
+.brand2 img{
+    margin-top: -171px;
+  margin-bottom: 112px;
+  margin-left: 98px;
+  width: 135px;
+    
+}
+/* ------Rate--------- */
+.price{
+    margin-left: 415px;
+}
+.price h2{
+    font-size: 21px;
+}
+.price p{
+    font-style: italic;
+    color: red;
+}
+.rating{
+    margin-left: 415px;
+  margin-top: 5px;
+  color: rgb(240, 162, 66);
+}
+.price2{
+    margin-left: 722px;
+  margin-top: -65px;
+}
+.price2 h2{
+    font-size: 21px;
+}
+.price2 p{
+    font-style: italic;
+    color: red;
+}
+.rating2{
+    margin-left: 722px;
+  margin-top: 5px;
+  color: rgb(240, 162, 66);
+}
+.price3{
+    margin-left: 1100px;
+  margin-top: -62px;
+}
+.price3 h2{
+    font-size: 21px;
+}
+.price3 p{
+    font-style: italic;
+    color: red;
+}
+.rating3{
+    margin-left: 1100px;
+    margin-top: 5px;
+    color: rgb(240, 162, 66);
+  
+}
+/* -------------pc------------- */
+.pc{
+    text-align: center;
+    margin-top: 262px;
+    font-size: 23px;
+    background-color:rgb(201, 172, 231);
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+}
+.pc span{
+    color: red;
+    font-family: cursive;
+}
+.apple{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(260px , auto));
+    gap: 1rem;
+    margin-top: 46px;
+    margin-left: 413px;
+  margin-right: 88px;
+}
+.apple1 p{
+   font-size: 20px;
+   color: red;
+   font-style: italic;
+    
+}
+.apple1 img{
+    width: 250px;
+    height: auto;
+    border: 3px solid #ae4d30;
+    cursor: pointer;
+    transition: all .42s ease;
+    border-radius: 10px;
+}
+.apple1 img:hover{
+    transform: scale(0.9);
+}
+
+.apple2 p{
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+    
+}
+.apple2 img{
+    width: 250px;
+    height: auto;
+    border: 3px solid #ae4d30;
+    cursor: pointer;
+    transition: all .42s ease;
+border-radius: 10px;
+}
+.apple2 img:hover{
+    transform: scale(0.9);
+}
+.apple3 p{
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+   
+}
+.apple3 img{
+    width: 250px;
+    height: auto;
+    border: 3px solid #ae4d30;
+    cursor: pointer;
+    transition: all .42s ease;
+    border-radius: 10px;
+}
+.apple3 img:hover{
+    transform: scale(0.9);
+}
+/* ----------Regular----------- */
+.regular{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(260px , auto));
+    gap: 1rem;
+    margin-left: 416px;
+  margin-top: 200px;
+  margin-right: 62px;
+}
+.regular1 img{
+    width: 250px;
+    height: auto;
+    border: 3px solid #ae4d30;
+    border-radius: 10px;
+    transition: all .42s ease;
+    cursor: pointer;
+}
+.regular1 img:hover{
+    transform: scale(0.9);
+}
+.regular1 p{
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+}
+.regular2 img{
+    width: 250px;
+    height: auto;
+    border: 3px solid #ae4d30;
+    border-radius: 10px;
+   transition: all .42s ease;
+   cursor: pointer;
+}
+.regular2 img:hover{
+    transform: scale(0.9);
+}
+.regular2 p{
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+   
+}
+.regular3 img{
+    width: 250px;
+    height: auto;
+    border: 3px solid #ae4d30;
+    border-radius: 10px;
+    transition: all .42s ease;
+    cursor: pointer;
+}
+.regular3 img:hover{
+    transform: scale(0.9);
+}
+.regular3 p{
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+   
+}
+
+/* ------------Range------------ */
+.range{
+    margin-top: -605px;
+  
+  border: 3px solid #ae4d30;
+  padding-right: 0px;
+  margin-right: 1248px;
+  margin-left: 66px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: #dbbeec;
+
+}
+.range h1{
+    color: red;
+    font-family: cursive;
+}
+.range1 p{
+    text-align: center;
+  font-style: italic;
+  color: #411ee9;
+  cursor: pointer;
+}
+/* ------------Brand Name------- */
+.brandname{
+    margin-left: 66px;
+  border: 3px solid #ae4d30;
+  margin-right: 1250px;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding-bottom: 7px;
+  background-color: #dbbeec;
+}
+.brandname h1{
+    color: red;
+    font-family: cursive;
+    text-align: center;
+}
+.brandname1 p{
+    text-align: center;
+    color: #411ee9;
+    cursor: pointer;
+    font-style: italic;
+}
